@@ -1,0 +1,23 @@
+name: GetMyPing
+main: dktapps\GetMyPing\Main
+version: 0.1.0
+api: 4.0.0
+load: POSTWORLD
+author: dktapps
+description: Show your ping with a command
+website: https://github.com/dktapps-pm-pl/GetMyPing
+
+commands:
+ ping:
+  description: "Show your network ping in milliseconds"
+  usage: "/ping"
+  permission: getmyping.command
+
+permissions:
+ getmyping:
+  default: true
+  description: "GetMyPing root node"
+  children:
+   getmyping.command:
+    default: true
+    description: "Allows the use of /ping"
