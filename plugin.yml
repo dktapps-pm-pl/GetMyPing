@@ -14,10 +14,6 @@ commands:
   permission: getmyping.command
 
 permissions:
- getmyping:
+ getmyping.command:
   default: true
-  description: "GetMyPing root node"
-  children:
-   getmyping.command:
-    default: true
-    description: "Allows the use of /ping"
+  description: "Allows the use of /ping"
