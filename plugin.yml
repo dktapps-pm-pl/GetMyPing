@@ -1,5 +1,6 @@
 name: GetMyPing
 main: dktapps\GetMyPing\Main
+src-namespace-prefix: dktapps\GetMyPing
 version: 0.1.0
 api: 4.0.0
 load: POSTWORLD
